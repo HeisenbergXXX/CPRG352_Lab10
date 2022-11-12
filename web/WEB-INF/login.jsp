@@ -9,9 +9,19 @@
         <h1>Notes App</h1>
         <h2>Login</h2>
         <form action="login" method="post">
-            email: <input type="text" name="email"><br>
-            password: <input type="password" name="password"><br>
-            <input type="submit" value="Sign in">
+            <table>
+                <tr>
+                    <td>Email:</td>
+                    <td><input type="text" name="email"></td>
+                </tr>
+                <tr>
+                    <td>Password:</td>
+                    <td><input type="password" name="password"></td>
+                </tr>
+                <tr>
+                    <td><input type="submit" value="Sign in"></td>
+                </tr>
+            </table>
         </form>
     </body>
 </html>
